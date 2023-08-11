@@ -225,3 +225,13 @@ a.custom-card:hover {
 .btn-primary {
   background-color: #f09100;
 }
+
+.form-control {
+  margin-top: 1vh;
+  height: 3rem;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+}
