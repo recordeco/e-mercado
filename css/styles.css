@@ -193,7 +193,7 @@ a.custom-card:hover {
 
 .form-signin {
   width: 100%;
-  max-width: 330px;
+  max-width: 530px;
   padding: 15px;
   margin: auto;
   text-align: center;
@@ -234,4 +234,31 @@ a.custom-card:hover {
 .checkbox {
   display: flex;
   justify-content: space-between;
+  
 }
+
+.contraseñas {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+}
+
+.nomres_signin { 
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+}
+
+.mail_signin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1000px;
+}
+
+.checkbox_signin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
