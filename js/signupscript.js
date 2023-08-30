@@ -67,6 +67,8 @@ bttn.addEventListener("click",function(e){
         document.cookie = `basemail=${JSON.stringify(basemail)}; path=/`;
         document.cookie = `basepw=${JSON.stringify(basepw)}; path=/`;
         document.cookie = `email=${emailcookie}; path=/`;
+        document.cookie = `username=${nombreusuario.value}; path=/`;
+        document.cookie = `fullname=${nombrecompleto.value}; path=/`;
         mensaje.innerHTML = "¡Has sido registrado con exito!";
 
         setTimeout(function(e){
