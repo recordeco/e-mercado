@@ -38,8 +38,4 @@ document.addEventListener("DOMContentLoaded", function(e) {
     } else {
         console.log("No se pudo obtener el nombre completo de las cookies");
     }
-
-    const storedusername = getCookie("username");
-    const storedfullname = getCookie("fullname");
-
 });
