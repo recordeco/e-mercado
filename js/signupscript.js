@@ -75,3 +75,13 @@ BTTN.addEventListener("click",function(e){
         alert("Debes completar todos los campos para registrarte");
     }
 })
+
+
+function showPopup() {
+    parent.document.getElementById("termsPopup").style.display = "block";
+    parent.document.getElementById("termsPopup").classList.add("fade-in");
+}
+
+document.getElementById("showTerms").addEventListener("click", () => {
+    showPopup();
+});
