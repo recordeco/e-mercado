@@ -79,7 +79,6 @@ BTTN.addEventListener("click",function(e){
 
 function showPopup() {
     parent.document.getElementById("termsPopup").style.display = "block";
-    parent.document.getElementById("termsPopup").classList.add("fade-in");
 }
 
 document.getElementById("showTerms").addEventListener("click", () => {
