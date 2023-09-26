@@ -18,10 +18,10 @@ body{
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #212529;
+    background-color: #1f1f1f88;
     background-clip: border-box;
-    border: 0 solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+    border: 0 solid rgba(59, 52, 52, 0.125);
+    border-radius: 0.9rem;
 }
 
 .card-body {
@@ -67,7 +67,7 @@ h6, small, hr, h4{
     height: 200px;
     padding: 10px;
     border: none;
-    background-color: #171a1c;
+    background-color: #2121217a;
     color: #fff;
     font-size: 18px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -90,6 +90,28 @@ h6, small, hr, h4{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
+}
+
+.progress-bar {
+    background-color: rgba(1, 1, 1, 0.913);
+}
+
+.btn {
+    background-color: rgba(1, 1, 1, 0.366);
+    border: 0px ;
+}
+
+.textsecondary {
+    color: rgb(177, 177, 177);
+}
+
+.btn.btn-info  {
+    color: white;
+    
+}
+.btn.btn-info:hover {
+    color: #ffffff;
+    background-color: black;
 }
 
 
